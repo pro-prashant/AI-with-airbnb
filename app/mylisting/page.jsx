@@ -7,8 +7,8 @@ import React, { useContext } from 'react'
 
 import { UserAuthContext } from "../context/contextauth";
 
-import Card from "@/Component/Card";
-import Chatbot from "@/Component/Chatbot";
+import Card from "@/component/Card";
+import Chatbot from "@/component/Chatbot";
 
 const page = () => {
   const navigate = useRouter();
