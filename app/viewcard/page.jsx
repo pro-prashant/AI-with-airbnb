@@ -10,7 +10,7 @@ import { UserAuthContext } from '../context/contextauth';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { BookingContext } from '../context/contextbook';
-import Chatbot from '@/Component/Chatbot';
+import Chatbot from '@/component/Chatbot';
 
 
 const Page = () => {
