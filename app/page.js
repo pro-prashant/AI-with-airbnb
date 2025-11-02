@@ -1,10 +1,13 @@
 
 "use client";
-import Navbar from "./component/Navbar";
+
 import { useContext, useEffect, useState } from "react";
 import { ListingContext } from "@/app/context/contextlisting";
-import Card from "./component/Card";
-import Chatbot from "./component/Chatbot";
+import Card from "@/Component/Card";
+import Chatbot from "@/Component/Chatbot";
+import Navbar from "@/Component/Navbar";
+
+
 
 export default function Home() {
   const { listing, showData } = useContext(ListingContext);
@@ -32,6 +35,8 @@ export default function Home() {
                 key={index}
                 className="animate-pulse bg-white rounded-2xl shadow-md w-72 h-80 flex flex-col"
               >
+                
+                
                 <div className="bg-gray-300 h-44 w-full rounded-t-2xl"></div>
                 <div className="flex-1 p-4 space-y-3">
                   <div className="h-4 bg-gray-300 rounded w-3/4"></div>

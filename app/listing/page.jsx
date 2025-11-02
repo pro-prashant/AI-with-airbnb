@@ -1,10 +1,11 @@
 
 "use client"
 import { ListingContext } from '@/app/context/contextlisting';
+import Chatbot from '@/Component/Chatbot';
 import { useRouter } from 'next/navigation';
 import React, { useContext } from 'react'
 import { FaArrowLeftLong } from "react-icons/fa6";
-import Chatbot from '../component/Chatbot';
+
 
 const Listing = () => {
   const { 

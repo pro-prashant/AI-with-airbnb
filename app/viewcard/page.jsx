@@ -10,7 +10,8 @@ import { UserAuthContext } from '../context/contextauth';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { BookingContext } from '../context/contextbook';
-import Chatbot from '../component/Chatbot';
+import Chatbot from '@/Component/Chatbot';
+
 
 const Page = () => {
   const router = useRouter();
@@ -146,6 +147,7 @@ const handleDelete = async (id) => {
           </h2>
         </div>
       </div>
+      
 
       {/* Image Grid */}
       <div className="border shadow-lg w-[95%] md:w-[80%] mx-auto my-6 md:my-10 max-h-[600px] p-4 rounded-lg overflow-hidden">

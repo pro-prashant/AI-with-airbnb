@@ -3,10 +3,12 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { useRouter } from 'next/navigation'
 import React, { useContext } from 'react'
-import Card from "../component/Card";
+
 
 import { UserAuthContext } from "../context/contextauth";
-import Chatbot from "../component/Chatbot";
+
+import Card from "@/Component/Card";
+import Chatbot from "@/Component/Chatbot";
 
 const page = () => {
   const navigate = useRouter();
@@ -26,6 +28,7 @@ const page = () => {
          <FaArrowLeftLong className="text-white bg-red-600 w-10 h-10 rounded-full p-2 cursor-pointer" />
              </button>
       </div>
+      
       
                         <div className='flex items-center justify-center'>
                               <div className='flex items-center justify-center gap-2 flex-wrap w-full' >
