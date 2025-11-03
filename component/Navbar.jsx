@@ -10,9 +10,10 @@ import { FaTreeCity } from "react-icons/fa6";
 import { BiBuildingHouse } from "react-icons/bi"; 
 import { useRouter } from 'next/navigation';
 import axios from 'axios';
-import { UserAuthContext } from '../context/contextauth';
+import { UserAuthContext } from "@/app/context/contextauth";
+import { ListingContext } from "@/app/context/contextlisting";
 import { toast } from 'react-toastify';
-import { ListingContext } from '../context/contextlisting';
+
 
 const Navbar = () => {
     const navigate = useRouter();
