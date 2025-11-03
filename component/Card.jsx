@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import React, { useContext, useState } from "react";
-import { UserAuthContext } from "../context/contextauth";
-import { ListingContext } from "../context/contextlisting";
+import { UserAuthContext } from "@/context/contextauth";
+import { ListingContext } from "@/context/contextlisting";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { FaCheckCircle } from "react-icons/fa";
