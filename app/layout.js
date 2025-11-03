@@ -1,4 +1,5 @@
 
+import Script from "next/script"; // ✅ add this import at the top
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import UserAuthProvider from "./provider/UserAuthProvider";
