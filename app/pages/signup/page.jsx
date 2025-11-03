@@ -4,7 +4,7 @@ import React, { useContext, useState } from 'react'
 import { UserAuthContext } from '@/app/context/contextauth';
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation';
-import Chatbot from '@/app/component/Chatbot';
+import Chatbot from '@/component/Chatbot';
 
 
 
