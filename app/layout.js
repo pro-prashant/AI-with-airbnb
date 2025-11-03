@@ -1,5 +1,4 @@
-
-import Script from "next/script"; // ✅ add this import at the top
+import Script from "next/script"; // ✅ Import Next.js Script component
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import UserAuthProvider from "./provider/UserAuthProvider";
@@ -25,19 +24,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-  </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <ToastContainer/>
-             <UserAuthProvider>
-            <ListingProvider>
-          <BookingProvider>
-        {children}
-        </BookingProvider>
-        </ListingProvider>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* ✅ Razorpay Script loaded properly without ESLint error */}
+        <Script
+          src="https://checkout.razorpay.com/v1/checkout.js"
+          strategy="beforeInteractive"
+        />
+
+        {/* Toast and Providers */}
+        <ToastContainer />
+        <UserAuthProvider>
+          <ListingProvider>
+            <BookingProvider>{children}</BookingProvider>
+          </ListingProvider>
         </UserAuthProvider>
       </body>
     </html>
