@@ -9,7 +9,7 @@ import { IoBedOutline } from "react-icons/io5";
 import { BiBuildingHouse } from "react-icons/bi";
 import { ListingContext } from "@/app/context/contextlisting";
 import { useRouter } from "next/navigation";
-import Chatbot from "@component/Chatbot";
+import Chatbot from "@/component/Chatbot";
 
 
 const Listing2 = () => {
