@@ -4,8 +4,8 @@
 import { useContext, useEffect, useState } from "react";
 import { ListingContext } from "@/app/context/contextlisting";
 import Card from "@/Component/Card";
-import Chatbot from "@/Component/Chatbot";
-import Navbar from "@/Component/Navbar";
+import Chatbot from "@/component/Chatbot";
+import Navbar from "@/component/Navbar";
 
 
 
