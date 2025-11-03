@@ -2,7 +2,8 @@
 import React, { useContext } from "react";
 import { FaCircleCheck } from "react-icons/fa6";
 import { FaRegSadTear } from "react-icons/fa";
-import { UserAuthContext } from "../context/contextauth";
+import { UserAuthContext } from "@/app/context/contextauth";
+
 
 const Page = () => {
   const { userInfo } = useContext(UserAuthContext);
