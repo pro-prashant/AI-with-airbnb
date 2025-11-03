@@ -2,7 +2,8 @@
 import { useRouter } from "next/navigation";
 import React, { useContext } from "react";
 import { FaCircleCheck } from "react-icons/fa6";
-import { BookingContext } from "../context/contextbook";
+import { BookingContext } from "@/app/context/contextbook";
+
 
 const Page = () => {
   const router = useRouter();
