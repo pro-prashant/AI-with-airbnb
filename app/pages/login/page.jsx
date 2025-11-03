@@ -1,6 +1,6 @@
 
 "use client"
-import Chatbot from '@/app/component/Chatbot'
+import Chatbot from '@/component/Chatbot';
 import { UserAuthContext } from '@/app/context/contextauth'
 import { useRouter } from 'next/navigation'
 import React, { useContext, useState } from 'react'
