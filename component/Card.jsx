@@ -7,7 +7,8 @@ import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { FaCheckCircle } from "react-icons/fa";
 import { TiCancel } from "react-icons/ti";
-import { BookingContext } from "../context/contextbook";
+import { BookingContext } from "@/app/context/contextbook";
+
 
 const Card = ({
   id,
