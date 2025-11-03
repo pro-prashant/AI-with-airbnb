@@ -3,7 +3,7 @@
 
 import { useContext, useEffect, useState } from "react";
 import { ListingContext } from "@/app/context/contextlisting";
-import Card from "@/Component/Card";
+import Card from "@/component/Card";
 import Chatbot from "@/component/Chatbot";
 import Navbar from "@/component/Navbar";
 
